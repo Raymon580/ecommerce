@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+body {
+    background: #0a4257;
+    color: #c06162;
+    font-family: 'Sen';
+    min-height: 100vh;
+    position: absolute;
+    display: block;
+}
+
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.card {
+    background: rgba(24, 6, 73, 0.863);
+}
+
+img.card-img-top {
+    height: 186px;
+}
+
+ul.nav.nav-pills :hover {
+    background: #4fc0ec;
+    border-radius: var(--bs-nav-pills-border-radius);;
+}
+
+#body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 10px;
+}
+a.navbar-brand {
+    color: grey;
+}
+div.centerDiv {
+    margin: 0 auto;
+    max-width: 40%;
+}
+div > h1 {
+    text-align: center;
+    padding: 10%;
+}
+
+.dropdown_menu-9 {
+    animation: growOut 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@-moz-keyframes growOut {
+    0% {
+    transform: scale(0);
+    }
+    80% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+@-webkit-keyframes growOut {
+    0% {
+    transform: scale(0);
+    }
+    80% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+@-o-keyframes growOut {
+    0% {
+    transform: scale(0);
+    }
+    80% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+@keyframes growOut {
+    0% {
+    transform: scale(0);
+    }
+    80% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
